@@ -1,7 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Implementation</title>
+    <style>
+        /* General body styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f2f5;
+        }
+
+        /* Header styling */
+        header {
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+            background-color: #007bff;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Main content area styling */
+        main {
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        /* Footer styling */
+        footer {
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+            background-color: #007bff;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+        }
+
+        /* Make the content responsive */
+        @media (max-width: 600px) {
+            header, footer {
+                font-size: 18px;
+                padding: 8px;
+            }
+
+            main {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub pages.</p>
+
+    <!-- Header Section -->
+    <header>
+        Welcome to My Chatbot Page
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <p>Chat with our AI-powered assistant by clicking the chat icon at the bottom right corner.</p>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        &copy; 2024 My Website. All rights reserved.
+    </footer>
+
+    <!-- Tidio Chatbot Script -->
+ <script src="//code.tidio.co/xrgh3mkztwupo1dgdfl3lp9n6xqyiagu.js" async></script>
+
 </body>
 </html>
